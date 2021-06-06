@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E490788A5C83BC5EC4AD1C /* Pods_PlanYourDay_PlanYourDayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64E0E98218CB993D26804C3 /* Pods_PlanYourDay_PlanYourDayUITests.framework */; };
+		9B56BE0DE6B8486C2691A896 /* Pods_PlanYourDayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09834A4C0313240FCF26F21 /* Pods_PlanYourDayTests.framework */; };
+		D8C74EAA19E81C54812DC247 /* Pods_PlanYourDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B1948C478E5A418261D5DC /* Pods_PlanYourDay.framework */; };
+		FA3796D22645847600D0168E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3796D12645847600D0168E /* SplashViewController.swift */; };
+		FA6A60C126466C550017CFF5 /* PlannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A60BF26466C550017CFF5 /* PlannerCell.swift */; };
+		FA6A60C226466C550017CFF5 /* PlannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6A60C026466C550017CFF5 /* PlannerCell.xib */; };
+		FA6A60C7264687930017CFF5 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A60C6264687930017CFF5 /* Animation.swift */; };
+		FA6A60CC26468B480017CFF5 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A60CB26468B480017CFF5 /* AlertController.swift */; };
+		FA6AB51C2646E1F2007E8F87 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AB51B2646E1F2007E8F87 /* UIViewController+Extension.swift */; };
+		FA6AB52826470270007E8F87 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AB52726470270007E8F87 /* JSONParser.swift */; };
+		FA7626D32647D1C500AA232C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7626D22647D1C500AA232C /* Note.swift */; };
+		FA7E97162644102000CF241F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97152644102000CF241F /* AppDelegate.swift */; };
+		FA7E971D2644102000CF241F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7E971B2644102000CF241F /* Main.storyboard */; };
+		FA7E971F2644102200CF241F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7E971E2644102200CF241F /* Assets.xcassets */; };
+		FA7E97222644102200CF241F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7E97202644102200CF241F /* LaunchScreen.storyboard */; };
+		FA7E972D2644102200CF241F /* PlanYourDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E972C2644102200CF241F /* PlanYourDayTests.swift */; };
+		FA7E97382644102200CF241F /* PlanYourDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97372644102200CF241F /* PlanYourDayUITests.swift */; };
+		FA7E976B26441EA500CF241F /* plannerJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7E976A26441EA500CF241F /* plannerJSON.json */; };
+		FA7E978326441F6700CF241F /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E978226441F6700CF241F /* PlannerViewController.swift */; };
+		FA7E97932644215600CF241F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97922644215600CF241F /* Constants.swift */; };
+		FA7E979826442AB000CF241F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E979726442AB000CF241F /* UIView+Extension.swift */; };
+		FA7E97A126442CC000CF241F /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97A026442CC000CF241F /* EntryViewController.swift */; };
+		FA7E97AA26442D2C00CF241F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97A926442D2C00CF241F /* InfoViewController.swift */; };
+		FA7E97B52644386E00CF241F /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97B42644386E00CF241F /* UITextView+Extension.swift */; };
+		FA7E97BA26443F4000CF241F /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E97B926443F4000CF241F /* UIImageView+Extension.swift */; };
+		FA8EC6EC265B780E00D80557 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EC6EB265B780E00D80557 /* RealmService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7E97292644102200CF241F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7E970A2644101F00CF241F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7E97112644102000CF241F;
+			remoteInfo = PlanYourDay;
+		};
+		FA7E97342644102200CF241F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7E970A2644101F00CF241F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7E97112644102000CF241F;
+			remoteInfo = PlanYourDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2134473B740BE5CD7FCE8921 /* Pods-PlanYourDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourDay.debug.xcconfig"; path = "Target Support Files/Pods-PlanYourDay/Pods-PlanYourDay.debug.xcconfig"; sourceTree = "<group>"; };
+		57D698FBA31920987A7FB322 /* Pods-PlanYourDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourDayTests.debug.xcconfig"; path = "Target Support Files/Pods-PlanYourDayTests/Pods-PlanYourDayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86E31F5B12341D3842A08A12 /* Pods-PlanYourDay-PlanYourDayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourDay-PlanYourDayUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlanYourDay-PlanYourDayUITests/Pods-PlanYourDay-PlanYourDayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B09834A4C0313240FCF26F21 /* Pods_PlanYourDayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanYourDayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B1948C478E5A418261D5DC /* Pods_PlanYourDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanYourDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DD3C3C9E5912A0A46D18AC /* Pods-PlanYourDay-PlanYourDayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourDay-PlanYourDayUITests.release.xcconfig"; path = "Target Support Files/Pods-PlanYourDay-PlanYourDayUITests/Pods-PlanYourDay-PlanYourDayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E05CFEBFDE9C37CF532B0770 /* Pods-PlanYourDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourDay.release.xcconfig"; path = "Target Support Files/Pods-PlanYourDay/Pods-PlanYourDay.release.xcconfig"; sourceTree = "<group>"; };
+		F64E0E98218CB993D26804C3 /* Pods_PlanYourDay_PlanYourDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanYourDay_PlanYourDayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3796D12645847600D0168E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		FA6A60BF26466C550017CFF5 /* PlannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerCell.swift; sourceTree = "<group>"; };
+		FA6A60C026466C550017CFF5 /* PlannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlannerCell.xib; sourceTree = "<group>"; };
+		FA6A60C6264687930017CFF5 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		FA6A60CB26468B480017CFF5 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		FA6AB51B2646E1F2007E8F87 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		FA6AB52726470270007E8F87 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		FA7626D22647D1C500AA232C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		FA7E97122644102000CF241F /* PlanYourDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanYourDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7E97152644102000CF241F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7E971C2644102000CF241F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7E971E2644102200CF241F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7E97212644102200CF241F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7E97232644102200CF241F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7E97282644102200CF241F /* PlanYourDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanYourDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7E972C2644102200CF241F /* PlanYourDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanYourDayTests.swift; sourceTree = "<group>"; };
+		FA7E972E2644102200CF241F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7E97332644102200CF241F /* PlanYourDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanYourDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7E97372644102200CF241F /* PlanYourDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanYourDayUITests.swift; sourceTree = "<group>"; };
+		FA7E97392644102200CF241F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7E976A26441EA500CF241F /* plannerJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plannerJSON.json; sourceTree = "<group>"; };
+		FA7E978226441F6700CF241F /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
+		FA7E97922644215600CF241F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA7E979726442AB000CF241F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FA7E97A026442CC000CF241F /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		FA7E97A926442D2C00CF241F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FA7E97B42644386E00CF241F /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		FA7E97B926443F4000CF241F /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		FA8EC6EB265B780E00D80557 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		FD2745B08CF6497D91BABB34 /* Pods-PlanYourDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanYourDayTests.release.xcconfig"; path = "Target Support Files/Pods-PlanYourDayTests/Pods-PlanYourDayTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7E970F2644102000CF241F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C74EAA19E81C54812DC247 /* Pods_PlanYourDay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7E97252644102200CF241F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56BE0DE6B8486C2691A896 /* Pods_PlanYourDayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7E97302644102200CF241F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E490788A5C83BC5EC4AD1C /* Pods_PlanYourDay_PlanYourDayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F4C6010D4F6EF5E670F9DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2134473B740BE5CD7FCE8921 /* Pods-PlanYourDay.debug.xcconfig */,
+				E05CFEBFDE9C37CF532B0770 /* Pods-PlanYourDay.release.xcconfig */,
+				86E31F5B12341D3842A08A12 /* Pods-PlanYourDay-PlanYourDayUITests.debug.xcconfig */,
+				C1DD3C3C9E5912A0A46D18AC /* Pods-PlanYourDay-PlanYourDayUITests.release.xcconfig */,
+				57D698FBA31920987A7FB322 /* Pods-PlanYourDayTests.debug.xcconfig */,
+				FD2745B08CF6497D91BABB34 /* Pods-PlanYourDayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3FB0211E49E38E15B921191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1948C478E5A418261D5DC /* Pods_PlanYourDay.framework */,
+				F64E0E98218CB993D26804C3 /* Pods_PlanYourDay_PlanYourDayUITests.framework */,
+				B09834A4C0313240FCF26F21 /* Pods_PlanYourDayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3796D02645845100D0168E /* SplashVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA3796D12645847600D0168E /* SplashViewController.swift */,
+			);
+			path = SplashVC;
+			sourceTree = "<group>";
+		};
+		FA6A60B626466C080017CFF5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A60BF26466C550017CFF5 /* PlannerCell.swift */,
+				FA6A60C026466C550017CFF5 /* PlannerCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA6AB50F2646DCED007E8F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA6AB52326470226007E8F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97A926442D2C00CF241F /* InfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA79351D265231680015A985 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EC6EB265B780E00D80557 /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA7E97092644101F00CF241F = {
+			isa = PBXGroup;
+			children = (
+				FA7E97142644102000CF241F /* PlanYourDay */,
+				FA7E972B2644102200CF241F /* PlanYourDayTests */,
+				FA7E97362644102200CF241F /* PlanYourDayUITests */,
+				FA7E97132644102000CF241F /* Products */,
+				48F4C6010D4F6EF5E670F9DD /* Pods */,
+				D3FB0211E49E38E15B921191 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7E97132644102000CF241F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97122644102000CF241F /* PlanYourDay.app */,
+				FA7E97282644102200CF241F /* PlanYourDayTests.xctest */,
+				FA7E97332644102200CF241F /* PlanYourDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7E97142644102000CF241F /* PlanYourDay */ = {
+			isa = PBXGroup;
+			children = (
+				FA79351D265231680015A985 /* Services */,
+				FA7E974E2644112000CF241F /* Models */,
+				FA7E9748264410D600CF241F /* Views */,
+				FA7E977D26441F3200CF241F /* Controllers */,
+				FA7E976926441D8E00CF241F /* JSON */,
+				FA7E974F2644112A00CF241F /* Utils */,
+				FA7E9749264410E600CF241F /* SupportingFiles */,
+			);
+			path = PlanYourDay;
+			sourceTree = "<group>";
+		};
+		FA7E972B2644102200CF241F /* PlanYourDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E972C2644102200CF241F /* PlanYourDayTests.swift */,
+				FA7E972E2644102200CF241F /* Info.plist */,
+			);
+			path = PlanYourDayTests;
+			sourceTree = "<group>";
+		};
+		FA7E97362644102200CF241F /* PlanYourDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97372644102200CF241F /* PlanYourDayUITests.swift */,
+				FA7E97392644102200CF241F /* Info.plist */,
+			);
+			path = PlanYourDayUITests;
+			sourceTree = "<group>";
+		};
+		FA7E9748264410D600CF241F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E971B2644102000CF241F /* Main.storyboard */,
+				FA7E97202644102200CF241F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA7E9749264410E600CF241F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97152644102000CF241F /* AppDelegate.swift */,
+				FA7E971E2644102200CF241F /* Assets.xcassets */,
+				FA7E97232644102200CF241F /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FA7E974E2644112000CF241F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA7626D22647D1C500AA232C /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA7E974F2644112A00CF241F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97922644215600CF241F /* Constants.swift */,
+				FA7E979726442AB000CF241F /* UIView+Extension.swift */,
+				FA7E97B42644386E00CF241F /* UITextView+Extension.swift */,
+				FA7E97B926443F4000CF241F /* UIImageView+Extension.swift */,
+				FA6A60C6264687930017CFF5 /* Animation.swift */,
+				FA6A60CB26468B480017CFF5 /* AlertController.swift */,
+				FA6AB51B2646E1F2007E8F87 /* UIViewController+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA7E976926441D8E00CF241F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E976A26441EA500CF241F /* plannerJSON.json */,
+				FA6AB52726470270007E8F87 /* JSONParser.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		FA7E977D26441F3200CF241F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA3796D02645845100D0168E /* SplashVC */,
+				FA7E977E26441F3C00CF241F /* PlannerVC */,
+				FA7E979C26442C8C00CF241F /* EntryVC */,
+				FA7E97A826442D0000CF241F /* InfoVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA7E977E26441F3C00CF241F /* PlannerVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E978026441F4D00CF241F /* View */,
+				FA7E977F26441F4600CF241F /* Controller */,
+			);
+			path = PlannerVC;
+			sourceTree = "<group>";
+		};
+		FA7E977F26441F4600CF241F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E978226441F6700CF241F /* PlannerViewController.swift */,
+				FA6A60B626466C080017CFF5 /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA7E978026441F4D00CF241F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA7E979C26442C8C00CF241F /* EntryVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E979F26442CB100CF241F /* View */,
+				FA7E979E26442CAA00CF241F /* Model */,
+				FA7E979D26442CA100CF241F /* Controller */,
+			);
+			path = EntryVC;
+			sourceTree = "<group>";
+		};
+		FA7E979D26442CA100CF241F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97A026442CC000CF241F /* EntryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA7E979E26442CAA00CF241F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA7E979F26442CB100CF241F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA7E97A826442D0000CF241F /* InfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E97D626445F0C00CF241F /* View */,
+				FA6AB50F2646DCED007E8F87 /* Model */,
+				FA6AB52326470226007E8F87 /* Controller */,
+			);
+			path = InfoVC;
+			sourceTree = "<group>";
+		};
+		FA7E97D626445F0C00CF241F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7E97112644102000CF241F /* PlanYourDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7E973C2644102200CF241F /* Build configuration list for PBXNativeTarget "PlanYourDay" */;
+			buildPhases = (
+				0A0779DD91302E3FDCD08B27 /* [CP] Check Pods Manifest.lock */,
+				FA7E970E2644102000CF241F /* Sources */,
+				FA7E970F2644102000CF241F /* Frameworks */,
+				FA7E97102644102000CF241F /* Resources */,
+				FA991A7D266785450052CEED /* ShellScript */,
+				1971FE3F8E0C545FFDC03A60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanYourDay;
+			productName = PlanYourDay;
+			productReference = FA7E97122644102000CF241F /* PlanYourDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7E97272644102200CF241F /* PlanYourDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7E973F2644102200CF241F /* Build configuration list for PBXNativeTarget "PlanYourDayTests" */;
+			buildPhases = (
+				E18FF3696D960D5EAF18EF8F /* [CP] Check Pods Manifest.lock */,
+				FA7E97242644102200CF241F /* Sources */,
+				FA7E97252644102200CF241F /* Frameworks */,
+				FA7E97262644102200CF241F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7E972A2644102200CF241F /* PBXTargetDependency */,
+			);
+			name = PlanYourDayTests;
+			productName = PlanYourDayTests;
+			productReference = FA7E97282644102200CF241F /* PlanYourDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7E97322644102200CF241F /* PlanYourDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7E97422644102200CF241F /* Build configuration list for PBXNativeTarget "PlanYourDayUITests" */;
+			buildPhases = (
+				D383872605295A8D193B583B /* [CP] Check Pods Manifest.lock */,
+				FA7E972F2644102200CF241F /* Sources */,
+				FA7E97302644102200CF241F /* Frameworks */,
+				FA7E97312644102200CF241F /* Resources */,
+				BC4A239E79BA04952A50F987 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7E97352644102200CF241F /* PBXTargetDependency */,
+			);
+			name = PlanYourDayUITests;
+			productName = PlanYourDayUITests;
+			productReference = FA7E97332644102200CF241F /* PlanYourDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7E970A2644101F00CF241F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA7E97112644102000CF241F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA7E97272644102200CF241F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA7E97112644102000CF241F;
+					};
+					FA7E97322644102200CF241F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA7E97112644102000CF241F;
+					};
+				};
+			};
+			buildConfigurationList = FA7E970D2644101F00CF241F /* Build configuration list for PBXProject "PlanYourDay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7E97092644101F00CF241F;
+			productRefGroup = FA7E97132644102000CF241F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7E97112644102000CF241F /* PlanYourDay */,
+				FA7E97272644102200CF241F /* PlanYourDayTests */,
+				FA7E97322644102200CF241F /* PlanYourDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7E97102644102000CF241F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6A60C226466C550017CFF5 /* PlannerCell.xib in Resources */,
+				FA7E97222644102200CF241F /* LaunchScreen.storyboard in Resources */,
+				FA7E971F2644102200CF241F /* Assets.xcassets in Resources */,
+				FA7E976B26441EA500CF241F /* plannerJSON.json in Resources */,
+				FA7E971D2644102000CF241F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7E97262644102200CF241F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7E97312644102200CF241F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0779DD91302E3FDCD08B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanYourDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1971FE3F8E0C545FFDC03A60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanYourDay/Pods-PlanYourDay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanYourDay/Pods-PlanYourDay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanYourDay/Pods-PlanYourDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4A239E79BA04952A50F987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanYourDay-PlanYourDayUITests/Pods-PlanYourDay-PlanYourDayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanYourDay-PlanYourDayUITests/Pods-PlanYourDay-PlanYourDayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanYourDay-PlanYourDayUITests/Pods-PlanYourDay-PlanYourDayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D383872605295A8D193B583B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanYourDay-PlanYourDayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18FF3696D960D5EAF18EF8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanYourDayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA991A7D266785450052CEED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7E970E2644102000CF241F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6A60CC26468B480017CFF5 /* AlertController.swift in Sources */,
+				FA8EC6EC265B780E00D80557 /* RealmService.swift in Sources */,
+				FA7E97162644102000CF241F /* AppDelegate.swift in Sources */,
+				FA6A60C126466C550017CFF5 /* PlannerCell.swift in Sources */,
+				FA6AB51C2646E1F2007E8F87 /* UIViewController+Extension.swift in Sources */,
+				FA7626D32647D1C500AA232C /* Note.swift in Sources */,
+				FA7E978326441F6700CF241F /* PlannerViewController.swift in Sources */,
+				FA7E97BA26443F4000CF241F /* UIImageView+Extension.swift in Sources */,
+				FA7E97B52644386E00CF241F /* UITextView+Extension.swift in Sources */,
+				FA7E97AA26442D2C00CF241F /* InfoViewController.swift in Sources */,
+				FA7E979826442AB000CF241F /* UIView+Extension.swift in Sources */,
+				FA7E97932644215600CF241F /* Constants.swift in Sources */,
+				FA6AB52826470270007E8F87 /* JSONParser.swift in Sources */,
+				FA7E97A126442CC000CF241F /* EntryViewController.swift in Sources */,
+				FA6A60C7264687930017CFF5 /* Animation.swift in Sources */,
+				FA3796D22645847600D0168E /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7E97242644102200CF241F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7E972D2644102200CF241F /* PlanYourDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7E972F2644102200CF241F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7E97382644102200CF241F /* PlanYourDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7E972A2644102200CF241F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7E97112644102000CF241F /* PlanYourDay */;
+			targetProxy = FA7E97292644102200CF241F /* PBXContainerItemProxy */;
+		};
+		FA7E97352644102200CF241F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7E97112644102000CF241F /* PlanYourDay */;
+			targetProxy = FA7E97342644102200CF241F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7E971B2644102000CF241F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7E971C2644102000CF241F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7E97202644102200CF241F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7E97212644102200CF241F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7E973A2644102200CF241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7E973B2644102200CF241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7E973D2644102200CF241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2134473B740BE5CD7FCE8921 /* Pods-PlanYourDay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHK3PT3MZR;
+				INFOPLIST_FILE = PlanYourDay/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikolai.Borisov.PlanYourDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA7E973E2644102200CF241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05CFEBFDE9C37CF532B0770 /* Pods-PlanYourDay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHK3PT3MZR;
+				INFOPLIST_FILE = PlanYourDay/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikolai.Borisov.PlanYourDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA7E97402644102200CF241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D698FBA31920987A7FB322 /* Pods-PlanYourDayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHK3PT3MZR;
+				INFOPLIST_FILE = PlanYourDayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikolai.Borisov.PlanYourDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanYourDay.app/PlanYourDay";
+			};
+			name = Debug;
+		};
+		FA7E97412644102200CF241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2745B08CF6497D91BABB34 /* Pods-PlanYourDayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHK3PT3MZR;
+				INFOPLIST_FILE = PlanYourDayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikolai.Borisov.PlanYourDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanYourDay.app/PlanYourDay";
+			};
+			name = Release;
+		};
+		FA7E97432644102200CF241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E31F5B12341D3842A08A12 /* Pods-PlanYourDay-PlanYourDayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHK3PT3MZR;
+				INFOPLIST_FILE = PlanYourDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikolai.Borisov.PlanYourDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanYourDay;
+			};
+			name = Debug;
+		};
+		FA7E97442644102200CF241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DD3C3C9E5912A0A46D18AC /* Pods-PlanYourDay-PlanYourDayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHK3PT3MZR;
+				INFOPLIST_FILE = PlanYourDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikolai.Borisov.PlanYourDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanYourDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7E970D2644101F00CF241F /* Build configuration list for PBXProject "PlanYourDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7E973A2644102200CF241F /* Debug */,
+				FA7E973B2644102200CF241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7E973C2644102200CF241F /* Build configuration list for PBXNativeTarget "PlanYourDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7E973D2644102200CF241F /* Debug */,
+				FA7E973E2644102200CF241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7E973F2644102200CF241F /* Build configuration list for PBXNativeTarget "PlanYourDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7E97402644102200CF241F /* Debug */,
+				FA7E97412644102200CF241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7E97422644102200CF241F /* Build configuration list for PBXNativeTarget "PlanYourDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7E97432644102200CF241F /* Debug */,
+				FA7E97442644102200CF241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7E970A2644101F00CF241F /* Project object */;
+}
